@@ -21,7 +21,7 @@ HTML, знайомство з тегами, що це? І навіщо? Сере
 Анімація на CSS, кейфрейми. Практика з анімацією.
 * **[Урок №10:](https://github.com/AnD-FLuX/1_HTML_CSS/tree/hc_lesson_10)**
 Препроцесор SASS/SCSS або інші. БЕМ. Кросбраузерність.
-* **[Урок №11:](https://github.com/AnD-FLuX/1_HTML_CSS/tree/hc_lesson_111)**
+* **[Урок №11:](https://github.com/AnD-FLuX/1_HTML_CSS/tree/hc_lesson_11)**
 Фреймворк Bootstrap або інші, css GRID.
 * **[Урок №12:](https://github.com/AnD-FLuX/1_HTML_CSS/tree/hc_lesson_12)**
 Реєстрація на Github, github як хостинг
