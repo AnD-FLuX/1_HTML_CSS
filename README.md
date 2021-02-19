@@ -3,7 +3,7 @@
 
 **lesson_11**
 
-* **[Урок №11:](https://github.com/AnD-FLuX/1_HTML_CSS/tree/hc_lesson_111)**
+* **[Урок №11:](https://github.com/AnD-FLuX/1_HTML_CSS/tree/hc_lesson_11)**
 Фреймворк Bootstrap або інші, css GRID.
 
 👉 Завдання:
