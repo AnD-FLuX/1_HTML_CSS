@@ -1,0 +1,52 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.arsenal{
+    width: 1896px;
+    height: 900px;
+    margin: 10px auto;
+}
+.text{
+    font-size: 140px;
+    text-shadow: rgb(255 255 255) 0px 0px 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'LatinBoldNarrow', monospace;
+    text-align: center;
+}
+.A, .R, .S, .E, .N, .L{
+    width: 270px;
+    height: 100%;
+    display: inline-block;
+    margin: 0 -4px 0 0;
+    padding: 370px 0 0 0;
+}
+.A{
+    background: #ED213A; 
+    background: -webkit-linear-gradient(to top, #93291E, #ED213A); 
+    background: linear-gradient(to top, #93291E, #ED213A); 
+   } 
+.R{
+    background: #654ea3; 
+    background: -webkit-linear-gradient(to top,#d37ea1, #34457c); 
+    background: linear-gradient(to top, #d37ea1, #34457c);
+    } 
+.S{
+    background: #659999;  
+    background: -webkit-linear-gradient(to top, #fd9144, #55d3b8);  
+    background: linear-gradient(to top, #fd9144, #55d3b8); 
+} 
+.E{
+    background: #5A3F37; 
+    background: -webkit-linear-gradient(to top, #2C7744, #5A3F37); 
+    background: linear-gradient(to top, #2C7744, #5A3F37); 
+    }
+.N{
+    background: #e1eec3; 
+    background: -webkit-linear-gradient(to bottom, #ce4869, #e1eec3); 
+    background: linear-gradient(to bottom, #ce4869, #e1eec3); 
+    } 
+.L{
+    background: #6D6027;
+    background: -webkit-linear-gradient(to top, #ada288, #573e19);
+    background: linear-gradient(to top, #ada288, #573e19)
+}
