@@ -1,0 +1,538 @@
+@import url(reset.css);
+@import url(fonts.css);
+.bg {
+    background-color: white;
+}
+
+.menu-line {
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.menu {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #131313;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 33px;
+    font-weight: bold;
+    margin: 0 60px;
+}
+
+.left-menu-link {
+    width: 120px;
+    height: 45px;
+    text-decoration: none;
+    color: #131313;
+    position: absolute;
+}
+
+.left-menu-link:hover {
+    color: white;
+}
+
+.menu-link:hover {
+    color: dodgerblue;
+}
+
+.menu-active {
+    color: dodgerblue;
+}
+
+.cont {
+    height: 800px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.content, .content2, .content3 {
+    height: 700px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #e5e5e5;
+    display: flex;
+}
+
+.content2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.content3 {
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 0 0 0;
+}
+
+.content-left {
+    width: 120px;
+    height: 700px;
+}
+
+.main-menu-left {
+    height: 450px;
+    width: 80px;
+    border-radius: 20px;
+    margin: 120px 20px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.block {
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: center;
+    padding: 11px;
+    z-index: 2;
+    position: relative;
+}
+
+.block-h {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.block:hover {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.bl-line1::after, .bl-line2::after, .bl-line3::after, .bl-line4::after, .bl-line5::after {
+    content: "";
+    height: 45px;
+    width: 50px;
+    line-height: 45px;
+    font-size: 18px;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 40;
+    z-index: -2;
+    padding-left: 45px;
+    text-align: left;
+    transition-property: width;
+    transition-duration: .7s;
+}
+
+.bl-line1:hover::after, .bl-line2:hover::after, .bl-line3:hover::after, .bl-line4:hover::after, .bl-line5:hover::after {
+    background-color: dodgerblue;
+    width: 120px;
+    overflow: hidden;
+}
+
+.bl-line1:hover::after {
+    content: "Project";
+}
+
+.bl-line2:hover::after {
+    content: "Account";
+}
+
+.bl-line3:hover::after {
+    content: "Groups";
+}
+
+.bl-line4:hover::after {
+    content: "Cloud";
+}
+
+.bl-line5:hover::after {
+    content: "Settings";
+}
+
+.content-right {
+    width: 100%;
+    height: 615px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-right-top {
+    width: 100%;
+    height: 165px;
+    display: flex;
+    padding: 35px 0 10px 20px;
+}
+
+.content-right-centr-left {
+    width: 65%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 0 0;
+}
+
+.content-right-centr-right {
+    width: 35%;
+    height: 450px;
+    display: flex;
+    padding: 10px 20px 20px 10px;
+}
+
+.con-t1, .con-t2, .con-t3 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.con-t1 {
+    height: 100%;
+    width: 50%;
+    margin: 0 20px 10px 0;
+    padding: 35px 25px;
+}
+
+.con-t2 {
+    height: 50%;
+    margin: 0 10px 20px 20px;
+    padding: 40px 25px 0;
+}
+
+.con-t3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+}
+
+.text-team2, .text-team3, .text1 {
+    font-family: 'Chronica';
+    font-size: 14px;
+    color: rgb(172, 172, 172);
+}
+
+.text1 {
+    line-height: 23px;
+}
+
+.text2, .text-team1 {
+    font-family: 'bahij';
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.text-team3 {
+    font-size: 12px;
+    margin: 10px;
+}
+
+.text_x {
+    margin: 25px 0 0 0;
+}
+
+.image {
+    width: 110px;
+    height: 110px;
+    float: left;
+    margin: 0 20px 20px;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+}
+
+.box1, .box2 {
+    height: 260px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row nowrap;
+}
+
+.box-in {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.box-in::after {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+    display: block;
+    border-radius: 10px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+.box-in:hover::after {
+    font-family: "Font Awesome 5 Free";
+    content: "\f2ed";
+    text-align: center;
+    padding-top: 16px;
+    background-color: white;
+    font-size: 18px;
+    z-index: 1;
+    color: dodgerblue;
+}
+
+.img-face {
+    margin: 0 0 20px 0;
+}
+
+.id_img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.box-in:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+
+.box-in:hover .text-team1, .box-in:hover .text-team2, .box-in:hover .text-team3 {
+    color: white;
+}
+
+.cont-less {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cont-less-top, .cont-less-centr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cont-less-centr {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cont-less-id, .cont-less-tp, .cont-less-dt, .cont-less-dl, .cont-less-dl2, .text-clt, .cont-less-cl {
+    width: 150px;
+    font-family: 'bahij';
+    font-size: 24px;
+    color: rgb(20, 20, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-size {
+    width: 20px;
+    height: 20px;
+}
+
+.text-clt {
+    width: 150px;
+    height: 50px;
+}
+
+.cont-less-dl2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(151, 151, 151);
+}
+
+.cont-less-centr:hover {
+    background-color: white;
+}
+
+.cont-less-dl2:hover {
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.acc {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+}
+
+.acc-left {
+    height: 600px;
+    width: 40%;
+    margin-right: 10px;
+}
+
+.acc-left-top {
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px 30px;
+    display: flex;
+}
+
+.acc-comp-top {
+    width: 100%;
+    height: 370px;
+}
+
+.acc-comp-bottom {
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.acc-comp-bottom-left, .acc-comp-bottom-right {
+    width: 50%;
+    height: 100%;
+}
+
+.acc-comp-bottom-right {
+    margin-left: 20px;
+}
+
+.acc-left-bottom {
+    height: 520px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.acc-right {
+    height: 680px;
+    width: 60%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    padding: 30px 30px 0;
+    flex-direction: column;
+}
+
+.acc-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.img-text-all {
+    height: 100px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#img-name {
+    background-color: rgb(233, 110, 110);
+}
+
+#img-pass {
+    background-color: dodgerblue;
+}
+
+#img-comp {
+    background-color: rgb(253, 143, 54);
+}
+
+.acc-txt {
+    height: 100px;
+    margin: 20px 30px;
+    width: 400px;
+}
+
+.acctxt1 {
+    font-size: 40px;
+}
+
+.acctxt2 {
+    margin-top: 5px;
+}
+
+.text-pass {
+    line-height: 30px;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+.focus {
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid #cecdcd;
+    box-shadow: 0px 0px 5px 5px #e9e9e9;
+}
+
+.acc-pass {
+    height: 100px;
+    width: 100%;
+}
+
+.co-na {
+    height: 110px;
+    resize: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: lightgray;
+    font-family: 'bahij';
+    font-size: 20px;
+}
+
+.focus:focus {
+    border-color: dodgerblue;
+}
+
+.left-button, .right-button {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.right-button {
+    padding-top: 10px;
+}
+
+.save-button {
+    height: 45px;
+    width: 130px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    font-size: 18px;
+    position: relative;
+    left: 4px;
+    border: 0px solid #000;
+    color: white;
+}
