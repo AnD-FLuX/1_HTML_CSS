@@ -1,0 +1,29 @@
+@import url(reset.css);
+body {
+    background-color: aqua;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    margin: 150px auto;
+    background-color: white;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes anim {
+    40% {
+        transform: rotate(180deg) scale(0.5);
+        border-radius: 50%;
+    }
+    60% {
+        transform: rotate(180deg) scale(0.5);
+        border-radius: 50%;
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+    }
+}
