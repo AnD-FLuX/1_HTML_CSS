@@ -1,0 +1,16 @@
+.shadow {
+    box-shadow: 0 0 20px 3px #230a06;
+    text-shadow:  9px -7px 6px rgb(36, 36, 36);
+    background: url(https://cdn.pixabay.com/photo/2018/07/23/19/32/abstract-3557682_960_720.jpg);
+    font-size: 33px;
+    width: 600px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: monospace;
+}
+#txt_block3{
+    background-color: rgb(5, 134, 134);
+    text-align: right;
+    color: white;
+    font-size: 20px;
+}
