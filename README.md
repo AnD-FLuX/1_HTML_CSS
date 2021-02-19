@@ -1,4 +1,4 @@
-# 1_HTML_CSS
+# HTML and CSS
 #1 HTML and CSS
 
 * **[Урок №1:](https://github.com/AnD-FLuX/1_HTML_CSS/tree/hc_lesson_01)**
